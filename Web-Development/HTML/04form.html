@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        h3{
+            text-align: center;
+        }
+        input[type=text].select{
+            margin-bottom: 10px;
+            width: 100%;
+            padding: 15px 20px;
+            margin:4px 0;
+            display: inline-block;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+        input[type=submit]{
+            align:right;
+            width: 25%;
+            background-color: #de8218;
+            color:white;
+            padding: 14px 20px;
+            margin: 6px o;
+            border:none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=update]{
+            width;40%;
+            background-color:#22d6d3;
+            color:white;
+            padding:14px 20px;
+            margin:6px 0px;
+            border:none;
+            border-radious:4px;
+            cursor:pointer;
+        }
+        input[type=submit]:hover{
+            background-color: #45a049;
+            border-radious:10px;
+        }
+        div{
+            border-radious:15px;
+            background-color: #f2f2f2;
+            padding: 50px;
+            width: 50%;
+            margin:auto;
+            background-color: #2799a3;
+            font-family: bold;
+        }
+    </style>
+    <body>
+        <h3>Using CSS to style an HTML Form</h3>
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="Firstname" placeholder="Your Name..."required><br><br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="LastName" placeholder="You Last Name..." required><br><br> 
+                <input type="submit" value="submit"><br>
+            </form>
+        </div>
+    </body>
+</html>
